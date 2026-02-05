@@ -2,15 +2,13 @@
   "name": "insta-vibe-backend",
   "version": "1.0.0",
   "main": "index.js",
-  
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
+    "express": "^4.5.10",
     "fs": "^0.0.1-security",
     "mongodb": "^6.18.0",
     "multer": "^2.0.2",
